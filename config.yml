@@ -1,4 +1,7 @@
-active_modules: [tags, blog]
+active_modules: [tags, blog, pygments]
 author: Ilya Petrov
 canonical_url: http://muromec.org.ua/
 locale: en
+modules:
+    pygments:
+        style: tango
