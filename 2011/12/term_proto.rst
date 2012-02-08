@@ -1,6 +1,6 @@
 pub_date: 2011-12-24
 tags: [unix, terminal]
-public: yes
+public: no
 title: term proto
 
 Что умеет терминал
