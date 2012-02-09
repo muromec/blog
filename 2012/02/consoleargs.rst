@@ -2,6 +2,7 @@ pub_date: 2012-02-09
 tags: [python, consoleargs]
 public: yes
 title: Consoleargs
+summary: consoleargs, python console arguments parser
 
 Consoleargs
 -----------
