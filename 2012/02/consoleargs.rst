@@ -8,14 +8,12 @@ Consoleargs
 
 Why?
 =========
-Недавно мне для одного питоновского проекта нужно было делать консольный интерфейс. Стал смотреть, чем в питончике модно парсить арументы командной строки. Посмотрел, увидел argparse и заплакал - писали какие-то жависты, не знаю, куда смотрит Гвидо.
+Recently I used to write command-line tool in python and realized that command-line parsers for python are toxic overengenered and written in java-abusing way. So I wrote my own driven by decorators and docstring magic.
 
-Поэтому я сделал свой парсер с человекопитоновским интерфейсом - consoleargs <i>(произносится сос-ноль-аргс)</i>. Чтобы описать параметры, которые принимает консольное приложение, достаточно импортнуть модуль и повесить на main() декоратор.
-
-
-Example
+Stop talking and show me the code!
 ========
-Вот так, например
+
+Here it is:
 
 .. sourcecode:: python
 
@@ -28,7 +26,7 @@ Example
     if __name__ == '__main__':
         main()
 
-И это уже можно вызывать из консоли с вот такими аргументами:
+And this little snippet can parse this many of command line switches and produce different kinds of arguments - boolean, list, integer and positional
 
 .. sourcecode:: shell
 
@@ -43,22 +41,25 @@ Example
 
 Explanation
 ============
-Что тут происходит? Начиная с самого первого: скрипту передается один аргумент - "here". Соответственно, в функцию *main()* приходит переменная dest с значением "here". Достаточно просто.
+First one is simple. Positional argument "here" stored into variable *dest*, all the other arguments have default values.
 
-Следующий пример интереснее: библиотека сама догадалась, что "verbose" может иметь сокращенную форму "-v". В функцию вместо дефолтного значения "0" (интовый нуль) передалась единица.
+Second one shows how to handle verbosity level. Default "verbose" value was 0, so adding one more "-v" to command line increases verbosity level to 1.
 
-В третьем примере используется полная форма аргумента и явное указание значения. В функцию передается интовое значение "2".
+Next one sets exact value to same variable unstead of counting and adding. Now "verbose" equals to int(2).
 
-В следующем случае, библиотека суммирует количество аргументов "-v" и в функцию передается знаечение "5". Пять - это количество ключей -v прибавленное к дефолтному значениею (нулю), а не просто количество ключей.
+Here you see same magic as in second one, but "-v" switch repeated five times, so "verbose" argument equals to int(5). Keep in mind, this is not just "-v" five times, but "-v" five times plus default "verbose" value.
 
-Параметр "--all" указывается в полной форме, в функцию передается булево значение True.
+Next one sets "all" argument to boolean True. 
 
-Параметр "key" имеет дефолтоное значение в виде списка, поэтому при указании "-k" несколько раз, в функцию передается список из всех аргументов -k.
+You can mix short forms of different arguments, increasing verbosity level at the same time as setting boolean argument to True.
 
+Key default value is empty list, so repeating *-k* with different values results with all this values passed to function as list. Key == ["myself", "green", "fat"]
 
 Auto-generated help
 ====================
-И самое главное - автоматически генерируется хелп. Если указать для функции main() докстринг, то в хелпе будет указано назначение параметров:
+Last one shows help! In that short example help would show just list of all options and short forms.
+
+If you want explain params with some usefull messages, use docstring as following:
 
 .. sourcecode:: python
 
@@ -76,6 +77,8 @@ Auto-generated help
     if __name__ == '__main__':
         main()
 
+Generated help:
+
 .. sourcecode:: shell
 
     Usage c.py DEST [OPTIONS]
@@ -90,7 +93,7 @@ Auto-generated help
 Some more magic
 ===================
 
-Если хочется еще больше, то можно сделать вот так:
+All arguments without default values are threated as simple positional arguments. First example shows only one positional argument, but you can have more. Additionaly you can declare first argument as list, so all positional arguments end up there.
 
 .. sourcecode:: python
 
@@ -98,5 +101,7 @@ Some more magic
     def main(dest=[], verbose=0, all=False, key=[]):
       pass
 
-Теперь можно вызвать команду с несколькими аргументами, которые все упадут в dest: "cmd here there aur -vvv".
+.. sourcecode:: shell
+    cmd here there all we are -v
 
+Now dest == ['here', 'there', 'all', 'we', 'are'] and 'verbose' = int(1)
