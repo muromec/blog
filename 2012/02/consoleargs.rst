@@ -11,7 +11,7 @@ Why?
 Recently I used to write command-line tool in python and realized that command-line parsers for python are toxic overengenered and written in java-abusing way. So I wrote my own driven by decorators and docstring magic.
 
 Stop talking and show me the code!
-========
+===================================
 
 Here it is:
 
@@ -102,6 +102,7 @@ All arguments without default values are threated as simple positional arguments
       pass
 
 .. sourcecode:: shell
+
     cmd here there all we are -v
 
 Now dest == ['here', 'there', 'all', 'we', 'are'] and 'verbose' = int(1)
