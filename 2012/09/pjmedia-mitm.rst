@@ -1,7 +1,7 @@
 pub_date: 2012-09-13
 tags: [code, voip, pjmedia]
 titile: PJMedia RTP flow redirection
-summary: Внезапно найдено
+summary: Про странную и не очень добрую особенность в работе с RTP
 
 pjmedia
 =======
