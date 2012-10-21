@@ -1,5 +1,5 @@
 pub_date: 2012-10-20
-tags: [off]
+tags: [offtop]
 public: yes
 title: Зомби
 summary: Текст про интернет-зомбей и их подслушанные разговоры
