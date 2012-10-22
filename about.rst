@@ -51,6 +51,10 @@ some similarity of core concepts across all well-designed systems.
 Life
 -----
 
-Despite we programmers say we live in that magic place called Internet,
-I live in Odessa, Ukraine. I`m thinkig about moving to some
-completely differnet place of the world, maby Thailand.
+Despite we programmers claim to live in that magic place called Internet, I am
+originally from Odessa_, now living on `Ko Phangan`_, Thailand.
+
+It worth visiting both this places if you have some time.
+
+.. _Ko Phangan: http://en.wikipedia.org/wiki/Ko_Pha_Ngan
+.. _Odessa: http://en.wikipedia.org/wiki/Odessa
