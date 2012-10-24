@@ -75,3 +75,4 @@ Where are you from?
 "там", вместе с "vodka, shahtery, bablo, otkat".
 
 .. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Odessa_panorama.jpg/640px-Odessa_panorama.jpg
+   :alt: panorama
