@@ -1,0 +1,21 @@
+VENV=virtualenv
+
+_env/.Python:
+	$(VENV) _env
+
+py_env: _env/.Python
+
+fix_clean:
+	rm -rf env
+
+build: _env/bin/run-rstblog rst_deps
+	env LC_ALL=C _env/bin/run-rstblog
+	rm _build/Makefile*
+
+_env/bin/run-rstblog:
+	_env/bin/pip install -e 'git+git://github.com/mitsuhiko/rstblog.git#egg=rstblog'
+
+rst_deps:
+	_env/bin/pip install pygments
+
+setup: py_env fix_clean build
