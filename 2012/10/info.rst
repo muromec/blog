@@ -1,4 +1,3 @@
-pub_date: 2012-10-27
 tags: [server]
 title: Ахтунг! Бложек переехал
 summary: Техническое про адреса rss
