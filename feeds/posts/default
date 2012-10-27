@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Recent Blog Posts</title>
+  <id>http://muromec.org.ua/feed.atom</id>
+  <updated>2012-10-27T00:00:00Z</updated>
+  <link href="http://muromec.org.ua/" />
+  <link href="http://muromec.org.ua/feed.atom" rel="self" />
+  <subtitle type="text">Recent blog posts</subtitle>
+  <generator>Werkzeug</generator>
+  <entry xml:base="http://muromec.org.ua/feed.atom">
+    <title type="text">Ахтунг! Бложек переехал</title>
+    <id>http://muromec.org.ua/2012/10/info</id>
+    <updated>2012-10-27T00:00:00Z</updated>
+    <link href="http://muromec.org.ua/2012/10/info" />
+    <author>
+      <name>Ilya Petrov</name>
+    </author>
+    <content type="html">&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;Объява&lt;/h2&gt;
+&lt;p&gt;Панове читатели бложека! Если это сообщение приехало вам в RSS-клиент,
+это значит, что он у вас подписан на старый адрес фида.&lt;/p&gt;
+&lt;p&gt;Бложек переехал с блогспота на генератор текстовых страничек из
+рестрактедтекста, адреса фидов поменялись и мне откровенно лень делать
+редиректы.&lt;/p&gt;
+&lt;p&gt;Правильный адрес для подписок - &lt;a class="reference external" href="http://muromec.org.ua/feed.atom"&gt;http://muromec.org.ua/feed.atom&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;Внезапно, юзерагенты&lt;/h2&gt;
+&lt;p&gt;Ну и чтоб два раза не ходить за лопатой:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+&amp;quot;Akregator/1.6.6; syndication&amp;quot;
+&amp;quot;Akregator/4.9.2; syndication&amp;quot;
+&amp;quot;Liferea/1.8.9 (Linux; uk_UA.UTF-8; http://liferea.sf.net/)&amp;quot;
+&amp;quot;Mail.Ru/1.0&amp;quot;
+&amp;quot;Mozilla/5.0 (X11; Linux i686; rv:16.0) Gecko/20121016 Thunderbird/16.0.1&amp;quot;
+&amp;quot;Opera/9.80 (Windows NT 6.1; U; en) Presto/2.10.289 Version/12.02&amp;quot;
+&amp;quot;Opera/9.80 (X11; Linux x86_64; U; en) Presto/2.10.289 Version/12.01&amp;quot;
+&lt;/pre&gt;
+&lt;p&gt;Ну ладно еще Опера из виндов, но мейлру? Удивляюсь кто все эти люди&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>
+
