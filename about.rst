@@ -6,7 +6,7 @@ pub_date: 2011-12-24
 Ilya Petrov
 ============
 
-I`m sofware developer and I like living this way. I beleave lots
+I`m sofware developer and I like living this way. I believe lots
 of people already wrote tons of reasons why this job is so cool.
 
 
@@ -33,7 +33,7 @@ system administrator or unix guru.
 Job experience
 --------------
 
- * Mamba dating service, social apps (Sep 2011 till present)
+ * Mamba dating service, social apps (Sep 2011 - Mar 2012)
  * IPark Ventures, experika.com api (Apr 2010 - Jun 2011)
  * Limonika.ru, game server development (Dec 2008 - Mar 2010)
 
@@ -52,7 +52,7 @@ Life
 -----
 
 Despite we programmers claim to live in that magic place called Internet, I am
-originally from Odessa_, now living on `Ko Phangan`_, Thailand.
+originally from Odessa_, Black Sea now living on `Ko Phangan`_, Thailand.
 
 It worth visiting both this places if you have some time.
 
