@@ -5,7 +5,7 @@ a       { color: #432165; }
 a:hover { color: #3b185f; background: #f9f8fa; }
 
 /* headlines */
-h1, h2, h3, h4, h5, h6      { font-family: 'Vollkorn', 'Lucida Grande', serif;
+h1, h2, h3, h4, h5, h6      { font-family: 'Vollkorn', 'Georgia', serif;
                               font-weight: normal; color: #222; }
 h1 a, h2 a, h3 a, h4 a,
 h5 a, h6 a                  { text-decoration: none; }
