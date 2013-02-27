@@ -1,5 +1,5 @@
 pub_date: 2012-12-11 16:00:00
-tags: [asia, travel]
+tags: [self, asia, travel]
 title: Фотки
 summary: Бложиковое про фоточки
 
