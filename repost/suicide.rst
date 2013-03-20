@@ -208,3 +208,4 @@ tags: [repost, opressive government]
 и хуй тебе уйти из жизни, и жить спокойно - тоже хуй.
 
 via http://mudacek.livejournal.com/720.html
+автор (предположительно) Леонид Каганов
