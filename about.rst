@@ -33,7 +33,10 @@ system administrator or unix guru.
 Job experience
 --------------
 
+ * Cogniance (Sep 2013 till now)
+ * Broadcast.me (few times in 2013)
  * Mamba dating service, social apps (Sep 2011 - Mar 2012)
+ * 42 Coffee Cups (Summer 2011)
  * IPark Ventures, experika.com api (Apr 2010 - Jun 2011)
  * Limonika.ru, game server development (Dec 2008 - Mar 2010)
 
@@ -52,9 +55,7 @@ Life
 -----
 
 Despite we programmers claim to live in that magic place called Internet, I am
-originally from Odessa_, Black Sea now living on `Ko Phangan`_, Thailand.
-
-It worth visiting both this places if you have some time.
+originally from Odessa_, Black Sea I'm now living in Thailand.
 
 .. _Ko Phangan: http://en.wikipedia.org/wiki/Ko_Pha_Ngan
 .. _Odessa: http://en.wikipedia.org/wiki/Odessa
