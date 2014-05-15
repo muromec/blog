@@ -95,4 +95,4 @@ tags: [ukraine, cryptofreak]
 .. _emscripten: https://github.com/kripken/emscripten
 .. _написал: https://github.com/muromec/dstukeys/blob/master/source/iit.c
 .. _патченом openssl: http://www.crypto.org.ua/
-.. _Посмотреть можно: тут https://github.com/muromec/ukurwa4145
+.. _Посмотреть можно тут: тут https://github.com/muromec/ukurwa4145
