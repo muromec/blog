@@ -47,6 +47,6 @@ Emscripten
 Посмотреть можно на живом коде `dstukeys`_ и его зависимостях - `jkurwa`_ и `em-gost`_. Устанавливается и пакуется все одним мейкфайлом в репозе dstukeys.
 
 .. _жаваскрипте: http://media0.giphy.com/media/GYU7rBEQtBGfe/original.gif
-.. _dstukeys: github.com/muromec/dstukeys
+.. _dstukeys: https://github.com/muromec/dstukeys
 .. _jkurwa: https://github.com/muromec/jkurwa
 .. _em-gost: https://github.com/muromec/em-gost
