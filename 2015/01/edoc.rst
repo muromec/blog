@@ -97,7 +97,7 @@ tags: [code, crypto, opressive goverenment]
 .. _zozol: https://pypi.python.org/pypi/zozol
 .. _jk: https://www.npmjs.com/package/jkurwa
 .. _реализация подписатора и проверятора на пайтоне: https://github.com/dstucrypt/ukurwa4145
-.. _разбиралка сертификатов и форматов для клиентского жаваскрипта_: https://www.npmjs.com/package/jkurwa
+.. _разбиралка сертификатов и форматов для клиентского жаваскрипта: https://www.npmjs.com/package/jkurwa
 .. _конвертер ключей: https://www.npmjs.com/package/jkurwa
 .. _десять багов в ASN.1 парсере: https://github.com/indutny/asn1.js/pulls?q=is%3Apr+is%3Aclosed
 .. _шлюз аутентификации: https://eusign.org/
