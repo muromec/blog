@@ -62,7 +62,7 @@ tags: [code, crypto, opressive goverenment]
 ----------------
 
 Тривиальщину с форматом подписи, двумя ключами в одном контейнере и всей этой порнографией с LE/BE я оставлю для отдельного
-технического поста. Если коротко - PKCS#7 (aka CMS) с указанием своих алгоритмов (как и в сертификате X509), плюс враппер
+технического поста. Если коротко - PKCS#7 (aka CMS) с указанием своих алгоритмов (как и в сертификате X509), плюс `враппер`_
 вокруг него с указанием, что **АААА ВНУТРИ ПОДПИСАННЫЙ PKCS#7!!!!!!** и вот это все OpenSSL конечно не прожует. Специальная
 библиотека `jk`_, прожевать и сгенерировать это может (но не проверяет сам сертификат), специальная библиотека `zozol`_ на пайтоне,
 может распарсить и вытащить все интересное, но это по большому счету никого не ебет.
@@ -102,5 +102,6 @@ tags: [code, crypto, opressive goverenment]
 .. _десять багов в ASN.1 парсере: https://github.com/indutny/asn1.js/pulls?q=is%3Apr+is%3Aclosed
 .. _шлюз аутентификации: https://eusign.org/
 .. _PBES2/PBKDB: https://github.com/dstucrypt/jkurwa/blob/master/lib/spec/pbes.js
-.. _ережеванный PKCS#7: http://dstszi.kmu.gov.ua/dstszi/control/uk/publish/article?showHidden=1&art_id=90096&cat_id=38837
+.. _пережеванный PKCS#7: http://dstszi.kmu.gov.ua/dstszi/control/uk/publish/article?showHidden=1&art_id=90096&cat_id=38837
+.. _враппер: http://sfs.gov.ua/data/normativ/000/000/63059/un_f_format.doc
 .. _с врапперами: http://sfs.gov.ua/data/normativ/000/000/63059/un_f_format.doc
