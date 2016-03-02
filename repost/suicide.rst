@@ -214,3 +214,13 @@ tags: [repost, opressive government]
 
 via http://mudacek.livejournal.com/720.html
 автор (предположительно) Леонид Каганов
+
+Добавлено 2 Марта 2016
+----------------------
+
+Спустя три года Роскомнадзор нашел этот пост и направил `уведомление`_ о блокировке `с подписью`_. Я им коечно написал ответ `тоже с подписью`_.
+
+.. _уведомление: /censorship/104846_notification_on.rtf
+.. _с подписью: /censorship/104846_notification_on.rtf.sig
+.. _ответ: /censorship/RSKMNDZRPDRS-26022016.rtf
+.. _тоже с подписью:  /censorship/RSKMNDZRPDRS-26022016.rtf.sig
