@@ -3,7 +3,7 @@ tags: [myself]
 summary: CV
 pub_date: 2011-12-24
 
-Ilya Petrov
+Illya Petrov
 ============
 
 I`m sofware developer and I like living this way. I believe lots
@@ -14,11 +14,8 @@ Skills
 ------
 
  * python
- * js
- * react
+ * react.js, vue
  * django (hate this one)
- * flask
- * GAE
  * linux kernel drivers
  * ARM
  * hardcore unix user
@@ -35,12 +32,14 @@ system administrator or unix guru.
 Job experience
 --------------
 
- * Cogniance/Cloudmade (Sep 2013 till now) - tornado, zmq, data aggregation
- * Broadcast.me (few times in 2013) - video recoding on arm device with gst and python
- * Mamba dating service, social apps (Sep 2011 - Mar 2012) - social apps on GAE platform
- * 42 Coffee Cups (Summer 2011)
- * IPark Ventures, experika.com api (Apr 2010 - Jun 2011)
- * Limonika.ru, game server development (Dec 2008 - Mar 2010)
+ * Signrequest B.V. (July 2019 - till now) - vue.js, pdfjs;
+ * Getgoing Inc / BCD Travel (Feb 2015 - July 2019) - react.js, redux, python;
+ * Cogniance/Cloudmade (Sep 2013 - Feb 2015) - tornado, zmq, data aggregation;
+ * Broadcast.me (few times in 2013) - video recoding on arm device with gst and python;
+ * Mamba dating service, social apps (Sep 2011 - Mar 2012) - social apps on GAE platform;
+ * 42 Coffee Cups (Summer 2011);
+ * IPark Ventures, experika.com api (Apr 2010 - Jun 2011);
+ * Limonika.ru, game server development (Dec 2008 - Mar 2010).
 
 Open Source
 ------------
@@ -63,7 +62,6 @@ Life
 -----
 
 Despite we programmers claim to live in that magic place called Internet, I am
-originally from Odessa_, Black Sea I'm now living in Thailand.
+originally from Odessa_, Ukraine and after almost five years in South East Asia I finally moved back to Europe and line in Amsterdam.
 
-.. _Ko Phangan: http://en.wikipedia.org/wiki/Ko_Pha_Ngan
 .. _Odessa: http://en.wikipedia.org/wiki/Odessa
